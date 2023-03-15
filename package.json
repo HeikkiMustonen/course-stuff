@@ -1,0 +1,22 @@
+{
+  "name": "coursematerial",
+  "version": "1.0.0",
+  "description": "course stuff for fe course",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeikkiMustonen/courseSE.git"
+  },
+  "author": "HM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeikkiMustonen/courseSE/issues"
+  },
+  "homepage": "https://github.com/HeikkiMustonen/courseSE#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
