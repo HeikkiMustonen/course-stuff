@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "course stuff for fe course",
   "main": "index.js",
+  "homepage": "https://heikkimustonen.github.io/course-stuff",
   "scripts": {
-    "sass": "node-sass -w scss -o dist/css/ --recursive"
+    "sass": "node-sass -w scss -o dist/css/ --recursive",
+    "deploy":"gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,8 +17,8 @@
   "bugs": {
     "url": "https://github.com/HeikkiMustonen/courseSE/issues"
   },
-  "homepage": "https://github.com/HeikkiMustonen/courseSE#readme",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "node-sass": "^8.0.0"
   }
 }
